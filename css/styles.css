@@ -12,6 +12,12 @@ body {
     border-radius: 15px;
 }
 
+.bg-image{
+    background-image: url(../imagenes/Cielo-Celeste.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .button{
     border-color: #ffffff;
     background-color: #273ae4;
@@ -20,13 +26,14 @@ body {
 
 .button:hover{
     background-color: #0983f5;
-    border-color: #0368c7;
+    border-color: #0104a8;
     color: aliceblue;
 }
 
 p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:  #0417c5;
+    color:  #142af3;
+    border-bottom: #e2dede;
     font-style: oblique;
 }
 
@@ -69,7 +76,8 @@ h1{
 }
 
 .modal1{
-    background-color:  #0d4692;
+    background-color: #6173ce;
+    color: aliceblue;
     padding: 25px;
     border-radius: 35px;
     max-width: 350px;
@@ -86,8 +94,8 @@ h4{
 
 input[type=text] {
     width: 100%;
-    background-color: #aeaef5;
-    color: wheat;
+    background-color: #34346e;
+    color: aliceblue;
     padding: 12px 20px;
     border-radius: 20px;
     border: none;
@@ -96,8 +104,8 @@ input[type=text] {
 
 input[type=password] {
     width: 100%;
-    background-color: #aeaef5;
-    color: wheat;
+    background-color: #34346e;
+    color: aliceblue;
     padding: 12px 20px;
     border-radius: 20px;
     border: none;
@@ -106,8 +114,18 @@ input[type=password] {
 
 input[type=email] {
     width: 100%;
-    background-color: #aeaef5;
-    color: wheat;
+    background-color: #34346e;
+    color: aliceblue;
+    padding: 12px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+textarea{
+    width: 100%;
+    background-color: #34346e;
+    color: aliceblue;
     padding: 12px 20px;
     border-radius: 20px;
     border: none;
@@ -115,10 +133,10 @@ input[type=email] {
 }
 
 .div2 {
-    margin: 2% 30%;
-    background-color: #445bc2;
+    margin: 3% 30%;
+    background-color: #6173ce;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 25px;
     max-width: 650px;
     min-width: 250px;
 }
@@ -148,6 +166,7 @@ textarea{
     text-align: center;
     padding: 30px;
 }
+
 .card:hover {
     box-shadow: 5px 5px 20px rgb(0, 0, 0, 4);
     transform: translateY(-3%);
