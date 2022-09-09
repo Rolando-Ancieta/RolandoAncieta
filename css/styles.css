@@ -6,6 +6,12 @@ body {
     background-color: #090088;
 }
 
+.nav a:hover {
+    background-color: rgb(17, 4, 194);
+    color: black;
+    border-radius: 15px;
+}
+
 .button{
     border-color: #ffffff;
     background-color: #273ae4;
@@ -22,13 +28,29 @@ p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:  #0417c5;
     font-style: oblique;
-     
 }
 
 h1{
     font-style: oblique;
     color: rgb(18, 3, 97);
     text-align: center;
+}
+
+.title {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 35%;
+    background-color: #7e7ea7;
+    text-align: center;
+    padding: 8px 12px;
+    border: 3px solid rgb(115, 154, 206);
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+.title:hover {
+    background-color: rgb(115, 154, 206);
+    padding: 5px 10px;
+    border: 5px solid #7e7ea7;
 }
 
 .text{
@@ -40,7 +62,6 @@ h1{
     background-color:  #090088;
     color: aliceblue;
 }
-
 
 .menu {
     background-color:  #090088;
@@ -55,4 +76,79 @@ h1{
     min-width: 250px;
 }
 
+h5{
+    text-align: center;
+}
 
+h4{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+input[type=text] {
+    width: 100%;
+    background-color: #aeaef5;
+    color: wheat;
+    padding: 12px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=password] {
+    width: 100%;
+    background-color: #aeaef5;
+    color: wheat;
+    padding: 12px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=email] {
+    width: 100%;
+    background-color: #aeaef5;
+    color: wheat;
+    padding: 12px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.div2 {
+    margin: 2% 30%;
+    background-color: #445bc2;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 650px;
+    min-width: 250px;
+}
+
+.div3 {
+    margin: 0 auto;
+    background-color: #72b6a7;
+    padding: 25px;
+    border-radius: 35px;
+    max-width: 350px;
+    min-width: 250px;
+}
+
+li img{
+    width: 80%;
+    height: 400px;
+    border-radius: 55px;
+    padding: 5%;
+}
+textarea{
+    resize:none
+    
+}
+
+.card1 {
+    border-radius: 35px;
+    text-align: center;
+    padding: 30px;
+}
+.card:hover {
+    box-shadow: 5px 5px 20px rgb(0, 0, 0, 4);
+    transform: translateY(-3%);
+}
