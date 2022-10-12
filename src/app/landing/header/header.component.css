@@ -13,10 +13,16 @@ body {
     border-radius: 15px;
 }
 
+.button{
+    border-color: #ffffff;
+    background-color: #1c1f36;
+    color: aliceblue;
+}
+
 .button:hover{
-    background-color: rgb(249, 248, 255);
-    color: black;
-    border-radius: 15px;
+    background-color: #f5f83faf;
+    border-color: #020208;
+    color: rgb(1, 40, 75);
 }
 
 p{

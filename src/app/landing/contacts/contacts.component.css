@@ -26,7 +26,7 @@ h5{
 
 input[type=text] {
     width: 100%;
-    background-color: #1a1a5fde;
+    background-color: #333342;
     color: aliceblue;
     padding: 12px 20px;
     border-radius: 20px;
@@ -36,9 +36,9 @@ input[type=text] {
 
 input[type=email] {
     width: 100%;
-    background-color: #1a1a5fde;
+    background-color: #333342;
     color: aliceblue;
-    padding: 12px 20px;
+    padding: 12px ;
     border-radius: 20px;
     border: none;
     cursor: pointer;
@@ -46,7 +46,7 @@ input[type=email] {
 
 textarea{
     width: 100%;
-    background-color: #1a1a5fde;
+    background-color: #161622de;
     color: aliceblue;
     padding: 20px 110px;
     border-radius: 20px;
