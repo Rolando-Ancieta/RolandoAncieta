@@ -1,0 +1,81 @@
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:  #142af3;
+    border-bottom: #e2dede;
+    font-style: oblique;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    color: rgb(18, 3, 97);
+    text-align: center;
+}
+
+.title {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 35%;
+    background-color: #85858a;
+    text-align: center;
+    padding: 8px 12px;
+    border: 3px solid rgb(115, 154, 206);
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+.title:hover {
+    background-color: rgb(10, 37, 71);
+    padding: 5px 10px;
+    border: 5px solid #f5f83faf;
+    color: #f5f83faf;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 8));
+    }
+}
+
+.slider {
+    background: white;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+    height: 130px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.slider::before, .slider::after {
+    background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+    content: "";
+    height: 130px;
+    position: absolute;
+    width: 150px;
+    z-index: 2;
+}
+
+.slider::after {
+    right: -10px;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+
+.slider::before {
+    left: -10px;
+    top: 0;
+}
+
+.slider .slide-track {
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 8);
+}
+
+.slider .slide {
+    height: 130px;
+    margin-right: 50px;
+}

@@ -1,0 +1,44 @@
+body {
+    background-color: #84848a;
+}
+
+.nav {
+    background-color: #84848a;
+    color: rgb(3, 3, 46);
+}
+
+.nav a:hover {
+    background-color: rgb(249, 248, 255);
+    color: black;
+    border-radius: 15px;
+}
+
+.button:hover{
+    background-color: rgb(249, 248, 255);
+    color: black;
+    border-radius: 15px;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:  #142af3;
+    border-bottom: #170346;
+    font-style: oblique;
+}
+
+h1{
+    font-style: oblique;
+    color: rgb(18, 3, 97);
+    text-align: center;
+}
+
+.div3 {
+    margin: 0 auto;
+    background-color: #72b6a7;
+    padding: 25px;
+    border-radius: 35px;
+    max-width: 350px;
+    min-width: 250px;
+}
+
+

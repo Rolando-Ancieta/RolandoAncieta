@@ -1,0 +1,79 @@
+
+.button{
+    border-color: #ffffff;
+    color: rgb(11, 43, 71);
+    text-align: center;
+
+}
+
+.button:hover{
+    border-color: #0104a8;
+    color: aliceblue;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:  #142af3;
+    border-bottom: #e2dede;
+    font-style: oblique;
+}
+
+h5{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(16, 16, 54);
+}
+
+input[type=text] {
+    width: 100%;
+    background-color: #1a1a5fde;
+    color: aliceblue;
+    padding: 12px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=email] {
+    width: 100%;
+    background-color: #1a1a5fde;
+    color: aliceblue;
+    padding: 12px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+textarea{
+    width: 100%;
+    background-color: #1a1a5fde;
+    color: aliceblue;
+    padding: 20px 110px;
+    border-radius: 20px;
+    border: none;
+    cursor:initial;
+}
+
+.div2 {
+    margin: 3% 30%;
+    background-color: #8f8fa0;
+    padding: 20px;
+    border-radius: 25px;
+    max-width: 650px;
+    min-width: 250px;
+}
+
+.div3 {
+    margin: 0 auto;
+    background-color: #72b6a7;
+    padding: 25px;
+    border-radius: 35px;
+    max-width: 350px;
+    min-width: 250px;
+}
+
+textarea{
+    resize:none
+    
+}
+
